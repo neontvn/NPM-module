@@ -1,7 +1,7 @@
 "use strict";
 var color = {
-    red: 10,
-    blue: 10,
-    green: 10,
+    red: 20,
+    blue: 30,
+    green: 40,
 };
 console.log(color);
