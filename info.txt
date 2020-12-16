@@ -1,8 +1,12 @@
 Creating a NPM module for Ticketing application that will have the core functionalities of 
 error handling and middleware which can be re-used in the Ticketing Application.
 
-The existing code is written in typescript and hence a conversion from ts to js is done using the
-build script written in package.json and also creating and editing the tsconfig.json file.
+The existing code is written in typescript and hence a conversion from ts to js is done using the 
+typescript compiler "tsc". For that a build script written in package.json and also creating and. 
 A build folder is created in the src directory with the converted javascript code.
+(config for this is done in the tsconfig.json)
 
-> npm run build 
+There are two scripts written inside the package.json 
+    > clean : "del ./build/*"           This cleans up the build directory before we build the module again
+    > build : "npm run clean && tsc"    Runs the clean script and also the typescript compiler to generate
+                                        javascript code in build directory
