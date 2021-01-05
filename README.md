@@ -1,6 +1,6 @@
 # NPM-package
 
-A custom npm package that was created as a part of the project : [Ticketing Application](https://github.com/neontvn/TicketingApp).
+A custom npm package [Link to package](https://www.npmjs.com/package/@hungryshark/common) that was created as a part of the project : [Ticketing Application](https://github.com/neontvn/TicketingApp).
 
 The package has the core functionalities of error handling and middleware which can be re-used in applications. It also contains the events which are reusable and specific to the Ticketing Application.
 
